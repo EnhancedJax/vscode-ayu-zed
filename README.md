@@ -85,6 +85,15 @@ Install & setup the APC Customize UI++ extension, then paste the following into 
     // list of results
     ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
       "padding": "2px !important"
+    },
+    // status bar set height
+    "div:has(> .statusbar)": {
+      "height": "30px !important",
+      "top": "auto !important",
+      "bottom": "0 !important"
+    },
+    ".statusbar": {
+      "height": "30px !important"
     }
     // cannot style results as position and height is hard-coded.
   },
