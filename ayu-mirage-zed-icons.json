@@ -1,0 +1,366 @@
+{
+  "iconDefinitions": {
+    "astro": {
+      "iconPath": "./icons/astro.svg"
+    },
+    "audio": {
+      "iconPath": "./icons/audio.svg"
+    },
+    "bun": {
+      "iconPath": "./icons/bun.svg"
+    },
+    "c": {
+      "iconPath": "./icons/c.svg"
+    },
+    "code": {
+      "iconPath": "./icons/code.svg"
+    },
+    "coffeescript": {
+      "iconPath": "./icons/coffeescript.svg"
+    },
+    "collapsed_chevron": {
+      "iconPath": "./icons/chevron_right.svg"
+    },
+    "collapsed_folder": {
+      "iconPath": "./icons/folder.svg"
+    },
+    "cpp": {
+      "iconPath": "./icons/cpp.svg"
+    },
+    "css": {
+      "iconPath": "./icons/css.svg"
+    },
+    "dart": {
+      "iconPath": "./icons/dart.svg"
+    },
+    "default": {
+      "iconPath": "./icons/file.svg"
+    },
+    "docker": {
+      "iconPath": "./icons/docker.svg"
+    },
+    "document": {
+      "iconPath": "./icons/book.svg"
+    },
+    "elixir": {
+      "iconPath": "./icons/elixir.svg"
+    },
+    "elm": {
+      "iconPath": "./icons/elm.svg"
+    },
+    "erlang": {
+      "iconPath": "./icons/erlang.svg"
+    },
+    "eslint": {
+      "iconPath": "./icons/eslint.svg"
+    },
+    "expanded_chevron": {
+      "iconPath": "./icons/chevron_down.svg"
+    },
+    "expanded_folder": {
+      "iconPath": "./icons/folder_open.svg"
+    },
+    "font": {
+      "iconPath": "./icons/font.svg"
+    },
+    "fsharp": {
+      "iconPath": "./icons/fsharp.svg"
+    },
+    "go": {
+      "iconPath": "./icons/go.svg"
+    },
+    "graphql": {
+      "iconPath": "./icons/graphql.svg"
+    },
+    "haskell": {
+      "iconPath": "./icons/haskell.svg"
+    },
+    "heroku": {
+      "iconPath": "./icons/heroku.svg"
+    },
+    "image": {
+      "iconPath": "./icons/image.svg"
+    },
+    "java": {
+      "iconPath": "./icons/java.svg"
+    },
+    "javascript": {
+      "iconPath": "./icons/javascript.svg"
+    },
+    "kotlin": {
+      "iconPath": "./icons/kotlin.svg"
+    },
+    "lock": {
+      "iconPath": "./icons/lock.svg"
+    },
+    "log": {
+      "iconPath": "./icons/info.svg"
+    },
+    "lua": {
+      "iconPath": "./icons/lua.svg"
+    },
+    "nim": {
+      "iconPath": "./icons/nim.svg"
+    },
+    "ocaml": {
+      "iconPath": "./icons/ocaml.svg"
+    },
+    "phoenix": {
+      "iconPath": "./icons/phoenix.svg"
+    },
+    "php": {
+      "iconPath": "./icons/php.svg"
+    },
+    "prettier": {
+      "iconPath": "./icons/prettier.svg"
+    },
+    "prisma": {
+      "iconPath": "./icons/prisma.svg"
+    },
+    "python": {
+      "iconPath": "./icons/python.svg"
+    },
+    "r": {
+      "iconPath": "./icons/r.svg"
+    },
+    "react": {
+      "iconPath": "./icons/react.svg"
+    },
+    "ruby": {
+      "iconPath": "./icons/ruby.svg"
+    },
+    "rust": {
+      "iconPath": "./icons/rust.svg"
+    },
+    "scala": {
+      "iconPath": "./icons/scala.svg"
+    },
+    "settings": {
+      "iconPath": "./icons/settings.svg"
+    },
+    "storage": {
+      "iconPath": "./icons/database.svg"
+    },
+    "swift": {
+      "iconPath": "./icons/swift.svg"
+    },
+    "tcl": {
+      "iconPath": "./icons/tcl.svg"
+    },
+    "template": {
+      "iconPath": "./icons/html.svg"
+    },
+    "terminal": {
+      "iconPath": "./icons/terminal.svg"
+    },
+    "terraform": {
+      "iconPath": "./icons/terraform.svg"
+    },
+    "toml": {
+      "iconPath": "./icons/toml.svg"
+    },
+    "typescript": {
+      "iconPath": "./icons/typescript.svg"
+    },
+    "vcs": {
+      "iconPath": "./icons/git.svg"
+    },
+    "video": {
+      "iconPath": "./icons/video.svg"
+    },
+    "vue": {
+      "iconPath": "./icons/vue.svg"
+    }
+  },
+  "file": "default",
+  "folder": "collapsed_folder",
+  "folderExpanded": "expanded_folder",
+  "fileExtensions": {
+    "Emakefile": "erlang",
+    "aac": "audio",
+    "accdb": "storage",
+    "app.src": "erlang",
+    "astro": "astro",
+    "avi": "video",
+    "avif": "image",
+    "bak": "backup",
+    "bash": "terminal",
+    "bash_aliases": "terminal",
+    "bash_logout": "terminal",
+    "bash_profile": "terminal",
+    "bashrc": "terminal",
+    "bmp": "image",
+    "c": "c",
+    "cc": "cpp",
+    "cjs": "javascript",
+    "coffee": "coffeescript",
+    "conf": "settings",
+    "cpp": "cpp",
+    "css": "css",
+    "csv": "storage",
+    "cts": "typescript",
+    "dart": "dart",
+    "dat": "storage",
+    "db": "storage",
+    "dbf": "storage",
+    "dll": "storage",
+    "doc": "document",
+    "docx": "document",
+    "eex": "elixir",
+    "elm": "elm",
+    "erl": "erlang",
+    "escript": "erlang",
+    "eslintrc": "eslint",
+    "eslintrc.js": "eslint",
+    "eslintrc.json": "eslint",
+    "ex": "elixir",
+    "exs": "elixir",
+    "fish": "terminal",
+    "flac": "audio",
+    "fmp": "storage",
+    "fp7": "storage",
+    "frm": "storage",
+    "fs": "fsharp",
+    "gdb": "storage",
+    "gif": "image",
+    "gitattributes": "vcs",
+    "gitignore": "vcs",
+    "gitkeep": "vcs",
+    "gitmodules": "vcs",
+    "go": "go",
+    "gql": "graphql",
+    "graphql": "graphql",
+    "graphqls": "graphql",
+    "h": "c",
+    "handlebars": "code",
+    "hbs": "template",
+    "heex": "elixir",
+    "heic": "image",
+    "heif": "image",
+    "hpp": "cpp",
+    "hrl": "erlang",
+    "hs": "haskell",
+    "htm": "template",
+    "html": "template",
+    "ib": "storage",
+    "ico": "image",
+    "ini": "settings",
+    "inl": "cpp",
+    "j2k": "image",
+    "java": "java",
+    "jfif": "image",
+    "jp2": "image",
+    "jpeg": "image",
+    "jpg": "image",
+    "js": "javascript",
+    "json": "storage",
+    "jsonc": "storage",
+    "jsx": "react",
+    "jxl": "image",
+    "kt": "kotlin",
+    "ldf": "storage",
+    "lock": "lock",
+    "lockb": "bun",
+    "log": "log",
+    "lua": "lua",
+    "m4a": "audio",
+    "m4v": "video",
+    "markdown": "document",
+    "md": "document",
+    "mdb": "storage",
+    "mdf": "storage",
+    "mdx": "document",
+    "metadata": "code",
+    "mjs": "javascript",
+    "mka": "audio",
+    "mkv": "video",
+    "ml": "ocaml",
+    "mli": "ocaml",
+    "mov": "video",
+    "mp3": "audio",
+    "mp4": "video",
+    "mts": "typescript",
+    "myd": "storage",
+    "myi": "storage",
+    "nim": "nim",
+    "nu": "terminal",
+    "odp": "document",
+    "ods": "document",
+    "odt": "document",
+    "ogg": "audio",
+    "opus": "audio",
+    "otf": "font",
+    "pdb": "storage",
+    "pdf": "document",
+    "php": "php",
+    "plist": "template",
+    "png": "image",
+    "ppt": "document",
+    "pptx": "document",
+    "prettierignore": "prettier",
+    "prettierrc": "prettier",
+    "prisma": "prisma",
+    "profile": "terminal",
+    "ps1": "terminal",
+    "psd": "image",
+    "py": "python",
+    "qoi": "image",
+    "r": "r",
+    "rb": "ruby",
+    "rebar.config": "erlang",
+    "rkt": "code",
+    "rs": "rust",
+    "rtf": "document",
+    "sav": "storage",
+    "sc": "scala",
+    "scala": "scala",
+    "scm": "code",
+    "sdf": "storage",
+    "sh": "terminal",
+    "sql": "storage",
+    "sqlite": "storage",
+    "svelte": "template",
+    "svg": "image",
+    "swift": "swift",
+    "tcl": "tcl",
+    "tf": "terraform",
+    "tfvars": "terraform",
+    "tiff": "image",
+    "toml": "toml",
+    "ts": "typescript",
+    "tsv": "storage",
+    "tsx": "react",
+    "ttf": "font",
+    "txt": "document",
+    "vue": "vue",
+    "wav": "audio",
+    "webm": "video",
+    "webp": "image",
+    "wma": "audio",
+    "wmv": "video",
+    "woff": "font",
+    "woff2": "font",
+    "wv": "audio",
+    "xls": "document",
+    "xlsx": "document",
+    "xml": "template",
+    "xrl": "erlang",
+    "yaml": "settings",
+    "yml": "settings",
+    "yrl": "erlang",
+    "zlogin": "terminal",
+    "zsh": "terminal",
+    "zsh_aliases": "terminal",
+    "zsh_histfile": "terminal",
+    "zsh_profile": "terminal",
+    "zshenv": "terminal",
+    "zshrc": "terminal"
+  },
+  "fileNames": {
+    "Dockerfile": "docker",
+    "Podfile": "ruby",
+    "Procfile": "heroku"
+  },
+  "hidesExplorerArrows": true,
+  "languageIds": {}
+}

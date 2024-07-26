@@ -1,17 +1,17 @@
 {
-  "name": "ayu",
-  "displayName": "Ayu",
-  "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
-  "version": "1.0.3",
-  "publisher": "teabyii",
+  "name": "vscode-ayu-zed",
+  "displayName": "Ayu Mirage Zed",
+  "description": "A remake of Zed's Ayu mirage theme for VSCode.",
+  "version": "1.0.0",
+  "publisher": "enhanced-jax",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayu-theme/vscode-ayu"
+    "url": "https://github.com/enhanced-jax/vscode-ayu-zed"
   },
   "bugs": {
-    "url": "https://github.com/ayu-theme/vscode-ayu/issues",
-    "email": "teabyii@gmail.com"
+    "url": "https://github.com/enhanced-jax/vscode-ayu-zed/issues",
+    "email": "enhancedjax@gmail.com"
   },
   "engines": {
     "vscode": "^1.13.0"
@@ -24,46 +24,21 @@
     "theme",
     "ayu"
   ],
-  "homepage": "https://github.com/ayu-theme/vscode-ayu",
+  "homepage": "https://github.com/enhanced-jax/vscode-ayu-zed",
   "icon": "assets/logo.png",
   "contributes": {
     "themes": [
       {
-        "label": "Ayu Dark",
+        "label": "Ayu Mirage Zed",
         "uiTheme": "vs-dark",
-        "path": "./ayu-dark.json"
-      },
-      {
-        "label": "Ayu Dark Bordered",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-dark-bordered.json"
-      },
-      {
-        "label": "Ayu Light",
-        "uiTheme": "vs",
-        "path": "./ayu-light.json"
-      },
-      {
-        "label": "Ayu Light Bordered",
-        "uiTheme": "vs",
-        "path": "./ayu-light-bordered.json"
-      },
-      {
-        "label": "Ayu Mirage",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-mirage.json"
-      },
-      {
-        "label": "Ayu Mirage Bordered",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-mirage-bordered.json"
+        "path": "./ayu-mirage-zed.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "ayu",
-        "label": "Ayu",
-        "path": "./ayu-icons.json"
+        "id": "ayu-mirage-zed",
+        "label": "Ayu Mirage Zed",
+        "path": "./ayu-mirage-zed-icons.json"
       }
     ]
   },
@@ -78,6 +53,6 @@
     "ayu": "^8.0.1",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.3",
-    "vsce": "^1.96.1"
+    "vsce": "^1.103.1"
   }
 }
