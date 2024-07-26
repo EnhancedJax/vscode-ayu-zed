@@ -94,8 +94,11 @@ Install & setup the APC Customize UI++ extension, then paste the following into 
     },
     ".statusbar": {
       "height": "30px !important"
+    },
+    // hides search icon
+    ".codicon.codicon-search.search-icon": {
+      "display": "none !important"
     }
-    // cannot style results as position and height is hard-coded.
   },
 ```
 
