@@ -98,6 +98,10 @@ Install & setup the APC Customize UI++ extension, then paste the following into 
     // hides search icon
     ".codicon.codicon-search.search-icon": {
       "display": "none !important"
+    },
+    // empty editor background
+    ".editor-group-container.empty.active": {
+      "background-color": "var(--vscode-statusBar-background)"
     }
   },
 ```
