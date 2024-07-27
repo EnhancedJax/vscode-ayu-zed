@@ -2,7 +2,7 @@
   "name": "vscode-ayu-zed",
   "displayName": "Ayu Mirage Zed",
   "description": "A remake of Zed's Ayu mirage theme for VSCode.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "enhancedjax",
   "license": "MIT",
   "repository": {

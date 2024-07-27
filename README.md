@@ -119,8 +119,6 @@ Install & setup the [APC Customize UI++](https://marketplace.visualstudio.com/it
   },
 ```
 
-## Screenshots
-
 ## Development
 
 Setup
