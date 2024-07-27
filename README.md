@@ -141,3 +141,6 @@ Install package locally
 ```shell
 code --install-extension ayu-mirage-zed-1.0.0.vsix
 ```
+
+## Todos
+* CSS for command palette list
