@@ -140,3 +140,9 @@ Build package
 ```shell
 npm run package
 ```
+
+Install package locally
+
+```shell
+code --install-extension ayu-mirage-zed-1.0.0.vsix
+```
