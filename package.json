@@ -3,14 +3,14 @@
   "displayName": "Ayu Mirage Zed",
   "description": "A remake of Zed's Ayu mirage theme for VSCode.",
   "version": "1.0.0",
-  "publisher": "enhanced-jax",
+  "publisher": "enhancedjax",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/enhanced-jax/vscode-ayu-zed"
+    "url": "https://github.com/enhancedjax/vscode-ayu-zed"
   },
   "bugs": {
-    "url": "https://github.com/enhanced-jax/vscode-ayu-zed/issues",
+    "url": "https://github.com/enhancedjax/vscode-ayu-zed/issues",
     "email": "enhancedjax@gmail.com"
   },
   "engines": {
@@ -24,7 +24,7 @@
     "theme",
     "ayu"
   ],
-  "homepage": "https://github.com/enhanced-jax/vscode-ayu-zed",
+  "homepage": "https://github.com/enhancedjax/vscode-ayu-zed",
   "icon": "assets/logo.png",
   "contributes": {
     "themes": [

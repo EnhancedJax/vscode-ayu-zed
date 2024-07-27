@@ -6,10 +6,7 @@
 
 ![screen1](assets/scrn1.png)
 
-A remake of Zed's Ayu mirage theme for VSCode. Extra:
-
-- File icons from Zed
-- APC custom CSS for Zed-like interface (modifies command palette & title bar)
+Make VSCode look like Zed: a remake of Zed's Ayu mirage theme for VSCode. Also includes file icons and APC custom CSS for Zed-like interface (modifies command palette & title bar)!
 
 > Source from: [dempfi/ayu](https://github.com/dempfi/ayu)
 
