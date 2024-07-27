@@ -16,32 +16,25 @@ Make VSCode look like Zed: a remake of Zed's Ayu mirage theme for VSCode. Also i
 
 > Note that this isn't a theme maintained by the original [Ayu theme](https://github.com/dempfi/ayu) author or the vscode fork [vscode-ayu](https://github.com/dempfi/ayu) so please report issues related to this theme here.
 
-## Gallery
-
-![screen2](assets/scrn2.png)
-_Zed-like centered command palette & more custom css_
-![screen3](assets/scrn3.png)
-_No open editors_
-
 ## Install
 
 Install the extension from the VS Code Marketplace.
 
-### Theme setup
+### Theme & icons setup setup
 
-Simply go to `Preferences > Color Theme > Ayu Mirage Zed`.
+`Preferences > Color Theme > Ayu Mirage Zed`
+
+`Preferences > File Icon Theme > Ayu Mirage Zed`
 
 ### File Icon setup
 
 If you want to setup File Icon, then go to `Preferences > File Icon Theme > Ayu Mirage Zed`.
 
-### Zed Font
+### Zed Font & custom CSS
 
-If you want to use Zed's font, download them from [zed-fonts](https://github.com/zed-industries/zed-fonts) and proceed with the next section.
+To use Zed Fonts: Download and install both fonts from from [zed-fonts](https://github.com/zed-industries/zed-fonts)
 
-### APC custom CSS
-
-Install & setup the [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) extension, then paste the following into your `settings.json`. (Note: not tested on Windows.)
+To use custom CSS: Install & setup the [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) extension, then paste the following into your `settings.json`. (Note: not tested on Windows.)
 
 ```json
 "apc.electron": {
@@ -85,11 +78,11 @@ Install & setup the [APC Customize UI++](https://marketplace.visualstudio.com/it
       "padding": "0 !important"
     },
     // input element container
-    ".monaco-inputbox": {
+    ".quick-input-header > .quick-input-and-message .monaco-inputbox": {
       "border-radius": "10px 10px 0 0 !important"
     },
     // actual input element
-    ".monaco-inputbox>.ibwrapper>.input, .monaco-inputbox>.ibwrapper>.mirror": {
+    ".quick-input-header > .quick-input-and-message > .quick-input-filter > .quick-input-box input": {
       "padding": "8px 10px !important"
     },
     // list of results
@@ -119,6 +112,13 @@ Install & setup the [APC Customize UI++](https://marketplace.visualstudio.com/it
   },
 ```
 
+## Screenshots
+
+![screen2](assets/scrn2.png)
+_Zed-like centered command palette & more custom css_
+![screen3](assets/scrn3.png)
+_No open editors_
+
 ## Development
 
 Setup
@@ -143,4 +143,5 @@ code --install-extension ayu-mirage-zed-1.0.0.vsix
 ```
 
 ## Todos
-* CSS for command palette list
+
+- CSS for command palette list
